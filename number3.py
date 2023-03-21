@@ -20,5 +20,3 @@ def roman_numerals_to_int(roman_numeral: str):
         else:
             result += integers[roman_numeral[i]]
     return result
-
-print(roman_numerals_to_int('MCDXIX'))

@@ -71,6 +71,3 @@ def text_stat(filename: str):
         return data_dict
     except Exception as e:
         return {'error': e}
-
-
-print(text_stat('Files_for_number2/1file.txt'))
